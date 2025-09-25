@@ -30,13 +30,13 @@ def
 ## **Ejecutar el programa**
 Puedes correr el programa y escribir la entrada manualmente:
 ```sh
-java ejemplos_dp.Solution
+java LongestCommonSubsequence.java
 ```
 Luego, ingresa los valores y presiona `Enter` para escribir cada línea.
 
 ### **Ejecutar con redirección de archivos:**
 Si tienes un archivo con la entrada, puedes ejecutar el programa y guardar la salida otro archivo de texto:
 ```sh
-java ejemplos_dp.Solution < example_lcs.in > out_example_lcs.out
+java LongestCommonSubsequence.java < example_lcs.in > out_example_lcs.out
 ```
 Esto leerá la entrada desde `example_lcs.in` y guardará la salida en `out_example_lcs.out`.
